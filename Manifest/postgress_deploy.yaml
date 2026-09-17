@@ -20,8 +20,8 @@ spec:
             - containerPort: 5432
           env:
             - name: POSTGRES_USER
-              value: "postgres"
+              value: "axion_user"
             - name: POSTGRES_PASSWORD
-              value: "postgres@12345"
+              value: "P%40ssw01rd%40123"
             - name: POSTGRES_DB
-              value: "axiondb"
+              value: "axion_db"
